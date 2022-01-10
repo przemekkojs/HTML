@@ -1,0 +1,31 @@
+html {
+	background-color: #FFFEF7;
+	font-family: "Consolas";
+}
+
+body {
+	color: #000000;
+	font-size: 15px;
+	margin: 0 auto;
+	background-color: #FFECD0;
+	width: 1000px;
+	text-align: left;	
+}
+
+h1 {
+	text-align: center;
+}
+
+hr {
+	border: 1px solid #FFB900;
+}
+
+img {
+	width:200px;
+	max-width:100%;
+	height: auto;
+	margin: 10px;	
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+}

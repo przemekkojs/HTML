@@ -1,0 +1,24 @@
+.Container {
+	
+}
+
+.Menu {
+	float: left;
+	width: 20%;
+	margin: 0 1% 0 0;	
+}
+
+.Content {
+	float: left;
+	width: 79%;	
+	font-size: 14px;
+	background-color: #FFF6DA;		
+	
+}
+
+.Content-Header {
+	text-align: center;
+	font-size: 17px;
+	background-color: #FFECD0;
+	font-weight: bold;	
+}

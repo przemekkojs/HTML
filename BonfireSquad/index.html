@@ -3,34 +3,81 @@
 	<head>
 		<meta charset="UTF-8">
 		
-		<meta name="description" content="BonfireSquad - strona główna. Serdecznie zapraszamy."/>
-		<meta name="keywords" content="BonfireSquad, bonfire, squad, zespół, główna, strona główna, strona, internet, internetowa, muzyka, rock, pop, blues"/>
+		<meta name="description" content="BonfireSquad - strona główna. Serdecznie zapraszamy.">
+		<meta name="keywords" content="BonfireSquad, bonfire, squad, zespół, główna, strona główna, strona, internet, internetowa, muzyka, rock, pop, blues">
 		
 		<title>BonfireSquad - Strona główna</title>
-		<link href="main.css" media="screen" rel="stylesheet">
-		<link href="mobile.css" media="screen and (max-device-width: 550px)" rel="stylesheet">
-		<link rel="icon" href="res/main/icon.jpg" type="image/icon type">
+		<link href="main.css" media="screen and (min-width:550px)" rel="stylesheet">
+		<link href="mobile.css" media="screen and (max-width:550px)" rel="stylesheet">
+		<link rel="icon" href="res/main/icon.jpg" type="image/jpg">
 	</head>
 	
-	<body>		
-		<div class="containter">
-			<div class="menu">
-				<span class="button"><a href="index.html" rel="noopener noreferrer">Strona główna</a></span>
-				<span class="button"><a href="about.html" rel="noopener noreferrer">O nas</a></span>
-				<span class="button"><a href="updates.html" rel="noopener noreferrer">Aktualności</a></span>
-				<span class="button"><a href="lyrics.html" rel="noopener noreferrer">Teksty</a></span>
-			</div>
-		</div>
+	<body class="background-image">	
+		<ol id="menu" class="menu-header">
+			<li><a href="index.html" rel="noopener noreferrer">Strona główna</a></li>		
+			<li><a href="about.html" rel="noopener noreferrer">O nas</a></li>		
+			<li><a href="updates.html" rel="noopener noreferrer">Aktualności</a></li>		
+			<li>
+				<a href="lyrics.html" rel="noopener noreferrer">Teksty</a>
+				<ul>
+					<li>
+						<a>Ludzie ze stali</a>
+						<ol>
+							<li><a>Córeczko</a></li>
+							<li><a>Kawusia</a></li>
+							<li><a>Szampan</a></li>
+							<li><a>Que Sera</a></li>
+						</ol>
+					</li>
+					
+					<li>
+						<a>Numer dwa</a>
+						<ol>
+							<li><a>Cień</a></li>
+							<li><a>Za daleko</a></li>
+							<li><a>Lewa w górę</a></li>
+						</ol>
+					</li>
+					
+					<li>
+						<a>Numer jeden</a>
+						<ol>
+							<li><a>Piąteczek</a></li>
+							<li><a>Robin Hood</a></li>
+							<li><a>Nie dla mnie</a></li>
+							<li><a>Sweet Dreams</a></li>
+							<li><a>Wagary</a></li>
+							<li><a>Twój świat</a></li>
+							<li><a>Miła ma</a></li>
+							<li><a>Osiemnastka tuż za rogiem</a></li>
+							<li><a>Burza</a></li>
+							<li><a>Spadam</a></li>
+							<li><a>Kolęda</a></li>
+							<li><a>Coś się zmieni</a></li>
+							<li><a>Pożegnanie</a></li>
+							<li><a>Nieznajomy</a></li>
+						</ol>
+					</li>
+					
+					<li>
+						<a>Tydzień, miesiąc, rok</a>
+						<ol>
+							<li><a>Lato</a></li>
+						</ol>
+					</li>
+				</ul>
+			</li>
+		</ol>
 		
 		<div class="container">
-			<h1>BonfireSquad</h1>
-			<p/>
-			<img src="res/main/MainZdjecie.jpg" alt="PLAKAT" oncontextmenu="return false;">
+			<!--<h1>BonfireSquad</h1>
+			<p/>-->
+			<img class="img-main" src="res/main/MainZdjecie.png" alt="PLAKAT" oncontextmenu="return false;">
 		</div>
 	
-		<div class="centered-text">
+		<!--<div class="centered-text">
 			<div class="colored-text"><i>Niewiele trzeba, by grać.</i></div>
-		</div>	
+		</div>	-->
 
 		<div class="container">
 			<div class="link-image">
@@ -50,6 +97,17 @@
 					<img src="res/logos/YouTube_Logo.svg" alt="YouTube">
 				</a>
 			</div>
+			
+			<div class="link-image">
+				<a href="https://open.spotify.com/artist/71xpWHitJI20ewOylm5D2w?si=TRd9_6oLQxaNKzrmYOMxRA" target="_blank" rel="noopener noreferrer">
+					<img src="res/logos/Spotify_logo.png" alt="YouTube">
+				</a>
+			</div>
+		</div>
+		
+		<div class="container">
+			<!-- <a href="mailto:bonfiresquad17@gmail.com>Napisz do nas</a>-->
+			<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bonfiresquad17@gmail.com&su=Mail%20ze%20strony%20internetowej&" class="link-text">Napisz do nas</a>
 		</div>
 	</body>
 </html>

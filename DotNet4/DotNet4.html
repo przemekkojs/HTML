@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Laboratorum .NET 4</title>
+		
+		<link href="style.css" rel="stylesheet">		
+	</head>
+	
+	<body>
+		<main>
+			<section>
+				<header>
+					<h1>
+						Laboratorium .NET
+						<br/><a class="sub-title">Lista 4 - stworzenie strony WWW z wykorzystaniem języka JavaScript</a>
+					</h1>
+				</header>
+			</section>
+					
+			<section>
+				<header class="content-header">
+					<h2>Zadanie 1.</h2>
+				</header>
+				<article>
+					<p>Stworzyć stronę WWW, gdzie za pomocą języka JavaScript oraz metod do tworzenia elementów DOM powstanie tabliczka mnożenia dla n losowych elementów z zakresu 1-99.
+						<ul>
+							<li>Liczba n wierszy i kolumn z wynikami mnożenia powinna być podana przez użytkownika. Wartość <a class="math">n</a> ma być zakresu <a class="math">5 ≤ n ≤ 20</a>.</li>
+							<li>Jeśli użytkownik poda cokolwiek innego, ma zostać przyjęta jakaś domyślna wartość z tego zakresu, ale na stronie ma się pojawić informacja, że podane dane były niewłaściwe, więc przyjęto <a class="math">n = X</a>.</li>
+							<li>Wyniki (mnożenia) parzyste w komórkach tablicy powinny być z klasą <a class="red-text"><i>even</i></a>, a nieparzyste z klasą <a class="red-text"><i>odd</i></a>.</li>
+							<li>Wylosowane wartości mają się znaleźć w nagłówkach kolumn i wierszy.</li>
+							<li>W pliku CSS nadać odpowiednio style, aby tablica wyglądała <strong>estetycznie</strong> i wizualnie wyróżniały parzystość wyników.</li>
+						<ul>
+					</p>
+				</article>
+			</section>
+			
+			<section>
+				<article>
+					<br/><a class="button">Wygeneruj nową tabliczkę mnożenia.</a>
+					
+					<table>
+						<tbody id="multiplicationTable"></tbody>
+					</table>
+				</article>
+			</section>
+			
+			<section>
+				<header class="content-header">
+					<h2>Zadanie 2.</h2>
+				</header>
+				<article>
+					<p>
+						Poczytać o elemencie &lt;<a class="math">canvas</a>&gt;. Stworzyć kanwę, gdzie ruch myszką będzie powodował narysowanie po jednej linii od każdego z rogów do pozycji myszki. Po ruchu myszką linie te
+						będą prowadziły do kolejnego miejsca.
+					</p>
+					
+					<p>
+						Jeśli kursor myszki opuści element, linie mają zniknąć. Kod JavaScript ma działać poprawnie nawet jeśli zmienimy wymiary obiektu &lt;<a class="math">canvas</a>&gt; (np. w stylach tego obiektu).
+						Rozwiązanie powinno pozwalać wstawić element &lt;<a class="math">canvas</a>&gt; w dowolne miejsce poprawnego dokumentu oraz wstawiać kilka poprawnie działających takich elementów
+						(najlepiej do elementu HTML dodać klasę np. „drawingX” i dodać słuchaczy dla wszystkich elementów tej klasy). Stronę wypełnić również tekstem tak, aby miała długość większą niż ekran
+						(aby przesuwać ją w górę i w dół).
+					</p>
+				</article>
+			</section>
+			
+			<section>
+				<article>
+					<canvas class="drawingX" width="500" height="250"></canvas>
+					<canvas class="drawingX" width="500" height="250"></canvas>
+					<canvas class="drawingX" width="500" height="250"></canvas>
+				</article>
+			</section>
+		</main>
+		
+		<script src="zadani1.js"></script>
+		<script src="zadanie2.js"></script>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+html {
+	font-size: 16pt;
+	font-family: "Garamond", serif;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 64pt;
+	text-align: center;
+}
+
+h1 > .sub-title {
+	font-size: 16pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 32pt;
+}
+
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+table, tr, td {
+	border-collapse: collapse;
+	border: 1px;
+	border-color: #888888;
+	border-style: solid;
+	font-family: "Consolas", monospace;
+	text-align: right;
+}
+
+table {
+	margin-top: 20pt;
+}
+
+td > span {
+	margin: 5pt;
+}
+
+.content-header {
+	margin-left: 5%;
+	margin-bottom: -1em;
+	margin-top: 3em;
+}
+
+.red-text {
+	color: #FF0000;
+}
+
+.math {
+	font-family: "Consolas", monospace;
+	font-style: italic;
+}
+
+.button {
+	text-decoration: none;
+	border: 1px;
+	border-style: solid;
+	border-color: #888888;
+	border-radius: 5pt;
+	padding: 10px;
+	background-color: #666666;
+}
+
+.button:hover {
+	color: #FF0000;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.odd {
+	color: inherit;
+}
+
+.even {
+	color: #FF0000;
+}
+
+.table-header {
+	background-color: #666666;
+}
+
+.drawingX {
+	border: 1px solid #888888;
+	margin: 0 auto;
+	display: block;
+}
